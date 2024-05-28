@@ -1,15 +1,9 @@
-/* This software is licensed under the MIT License: https://github.com/spacehuhntech/esp8266_deauther */
 
 #include "CLI.h"
 
 #include <LittleFS.h>
 #include "settings.h"
 #include "wifi.h"
-
-/*
-   Shitty code used less resources so I will keep this clusterfuck as it is,
-   but if you're interested I made a library for this: github.com/spacehuhn/SimpleCLI
- */
 
 CLI::CLI() {
     list  = new SimpleList<String>;

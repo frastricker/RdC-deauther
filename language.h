@@ -572,10 +572,3 @@ const char S_JSON_LANG[] PROGMEM = "lang";
 // CLI
 const char S_JSON_SERIALINTERFACE[] PROGMEM = "serial";
 const char S_JSON_SERIAL_ECHO[] PROGMEM = "serialEcho";
-
-// LED
-const char S_JSON_LEDENABLED[] PROGMEM = "led";
-
-// Display
-const char S_JSON_DISPLAYINTERFACE[] PROGMEM = "display";
-const char S_JSON_DISPLAY_TIMEOUT[] PROGMEM = "displayTimeout";
